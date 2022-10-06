@@ -6,6 +6,7 @@
     <modules>
         <module>acorn-gateway-start</module>
         <module>acorn-gateway-admin</module>
+        <module>acorn-gateway-service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
