@@ -11,5 +11,10 @@
 
     <artifactId>acorn-gateway-domain</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+        </dependency>
+    </dependencies>
 </project>

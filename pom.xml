@@ -27,6 +27,24 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.viewwuyou</groupId>
+                <artifactId>acorn-gateway-domain</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.viewwuyou</groupId>
+                <artifactId>acorn-gateway-admin</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.viewwuyou</groupId>
+                <artifactId>acorn-gateway-service</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
             <!-- https://mvnrepository.com/artifact/com.alibaba.nacos/nacos-client -->
             <dependency>
                 <groupId>com.alibaba.nacos</groupId>
