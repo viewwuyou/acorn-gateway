@@ -7,7 +7,6 @@
         <module>acorn-gateway-start</module>
         <module>acorn-gateway-admin</module>
         <module>acorn-gateway-service</module>
-        <module>acorn-gateway-domain</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -27,11 +26,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>com.viewwuyou</groupId>
-                <artifactId>acorn-gateway-domain</artifactId>
-                <version>${revision}</version>
-            </dependency>
 
             <dependency>
                 <groupId>com.viewwuyou</groupId>

@@ -12,10 +12,7 @@
     <artifactId>acorn-gateway-start</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.viewwuyou</groupId>
-            <artifactId>acorn-gateway-domain</artifactId>
-        </dependency>
+
     </dependencies>
 
 </project>
