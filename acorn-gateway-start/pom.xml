@@ -17,6 +17,20 @@
             <artifactId>acorn-gateway-infrastructure</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.viewwuyou</groupId>
+            <artifactId>acorn-gateway-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.viewwuyou</groupId>
+            <artifactId>acorn-gateway-service</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.viewwuyou</groupId>
+            <artifactId>acorn-gateway-admin</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
