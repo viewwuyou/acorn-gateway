@@ -9,14 +9,22 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>acorn-gateway-start</artifactId>
-
+    <artifactId>acorn-gateway-infrastructure</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.viewwuyou</groupId>
-            <artifactId>acorn-gateway-infrastructure</artifactId>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
