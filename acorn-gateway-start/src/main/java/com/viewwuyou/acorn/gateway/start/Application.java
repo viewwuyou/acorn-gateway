@@ -1,8 +1,8 @@
 package com.viewwuyou.acorn.gateway.start;
 
+import com.alibaba.druid.stat.DruidStatManagerFacade;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 
 /**
  * @author viewwuyou
@@ -11,5 +11,6 @@ import org.springframework.context.ApplicationContext;
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+        System.out.println(DruidStatManagerFacade.getInstance().getDataSourceStatDataList());
     }
 }
